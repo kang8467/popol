@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/part1_main.css">
+    <link rel="stylesheet" href="css/part2_about.css">
+    <link rel="stylesheet" href="css/part3_portfolio.css">
+    <link rel="stylesheet" href="css/part4_contact.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/part1_main.js"></script>
+    <script src="js/part2_about.js"></script>
+    <script src="js/part3_portfolio.js"></script>
+</head>
+<body onLoad="initClock()">
+    <header>
+        <ul>
+            <li><a href="#part1"><img width="40" src="img/세모.png" alt="삼각형"></a></li>
+            <li><a href="#part2"><img width="40" src="img/동그라미.png" alt="원"></a></li>
+            <li><a href="#part3"><img width="40" src="img/엑스.png" alt="엑스"></a></li>
+            <li><a href="#part4"><img width="40" src="img/네모.png" alt="사각형"></a></li>
+        </ul>
+    </header>
+    <section id="part1">
+        <div class="card">
+            <div class="front">
+                  <figure> 
+                      <figcaption>
+                        <div id="timedate">
+                            <a id="h">12</a> <span>:</span>
+                            <a id="m">00</a> <span>:</span>
+                            <a id="s">00</a>
+                            <a id="ap">AM</a> <br>
+                            <a id="y">January</a>
+                            <a id="mon">1</a>
+                            <a id="d">0</a><br />
+                        </div>
+                      </figcaption>
+                  </figure>
+            </div>
+            <div class="back">
+              <figure>
+                      <figcaption>
+                          <h3>WELCOME</h3>
+                          <p>MY PORTFILIO</p>
+                      </figcaption>
+                  </figure>
+            </div>
+          </div>   
+    </section>
+    <section id="part2">
+        <h1>ABOUT</h1>
+             <div id="part2_about">
+                    <div class="power-switch">
+                            <input type="checkbox" />
+                            <div class="button">
+                              <svg class="power-off">
+                                <use xlink:href="#line" class="line" />
+                                <use xlink:href="#circle" class="circle" />
+                              </svg>
+                              <svg class="power-on">
+                                <use xlink:href="#line" class="line" />
+                                <use xlink:href="#circle" class="circle" />
+                              </svg>
+                            </div>
+                          </div>
+
+                 <div id="about1_img_text">
+                     <img width="120" src="img/html.png" alt="">
+                     <p>HTML 웹 표준&접근성 준수 <br>
+                        의미있는 make up 가능</p>
+                 </div>
+
+                <div id="about2_img_text">
+                    <img width="120" src="img/css.png" alt="">
+                    <p>CSS 반응형 미디어쿼리&<br>
+                            크로스브라우징 사용가능
+                        </p>
+                </div>
+
+                <div id="about3_img_text">
+                        <img width="120" src="img/js.png" alt="">
+                        <p>JavaScript 기본 문법이해  <br>
+                            J-Query를 활용하여 기능구현 <br>
+                            라이브러리,플러그인 사용가능
+                        </p>
+                </div>
+
+                <div id="about4_img_text">
+                        <p>간단한 편집&포토샵 기본틀 <br>
+                           웹디자인 제작 및 사용가능
+                        </p>
+                <img width="120" src="img/poto.png" alt="">
+                </div>
+
+</div>
+<!-- SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="line">
+    <line x1="75" y1="34" x2="75" y2="58"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="circle">
+    <circle cx="75" cy="80" r="35"/>
+  </symbol>
+</svg>
+    </section>
+
+    <section id="part3">
+        <h1>PORTFOLIO</h1>
+            <div id="potopol">
+                <ul>
+                    <li><a href="potopol/kscoffee2/KS coffee main.html"><img width="205" height="217" src="img/KS코피.png" alt=""></a><ul>
+                    <li><p>1</p></li>
+                    </ul></li>
+                    
+                    <li><a href="potopol/cupcake/cupcake.html"><img width="205" height="217" src="img/cake.png" alt=""></a><ul>
+                    <li><p>2</p></li>
+                    </ul></li>
+    
+                    <li><a href="potopol/fl/꽃집.html"><img width="205" height="217" src="img/flo.png" alt=""></a><ul>
+                    <li><p>3</p></li>
+                    </ul></li>
+    
+                    <li><a href="potopol/다연아트/dayun main.html"><img width="205" height="217" src="img/dayun23.png" alt=""></a><ul>
+                    <li><p>4</p></li>
+                    </ul></li>
+    
+                    <li><a href=""><img width="220" src="img/dsfg.PNG" alt=""></a><ul>
+                    <li><p>COMING SOON</p></li>
+                    </ul></li>
+    
+                    <li><a href=""><img width="220" src="img/dsfg.PNG" alt=""></a><ul>
+                    <li><p>COMING SOON</p></li>
+                    </ul></li> 
+                    
+                    <li><a href=""><img width="220" src="img/dsfg.PNG" alt=""></a><ul>
+                    <li><p>COMING SOON</p></li>
+                    </ul></li>
+    
+                    <li><a href=""><img width="220" src="img/dsfg.PNG" alt=""></a><ul>
+                    <li><p>COMING SOON</p></li>
+                    </ul></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="part4">
+                <div class="inner">
+                        <div class="contact-form-wrapper">
+                            <h2>CONTACT</h2>
+                            <div class="contact-form">
+                                <form action="#">
+                                    <div class="form-item">
+                                        <label for="name">NAME</label>
+                                        <input type="text" name="name" id="name">
+                                    </div>
+                                    <div class="form-item">
+                                        <label for="email">E-MAIL</label>
+                                        <input type="email" name="email" id="email">
+                                    </div>
+                                    <div class="form-item">
+                                        <label for="message">MESSAGE</label>
+                                        <textarea name="message" id="message"></textarea>
+                                    </div>
+                                    <div class="form-item">
+                                        <input type="SUBMIT" name="SUBMIT" id="SUBMIT" value="SUBMIT">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="contact-map" id="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9033.58006989216!2d127.13222129154684!3d36.822045591876616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b286efa6a557b%3A0xd532be2b17260a4b!2z7Lap7LKt64Ko64-EIOyynOyViOyLnCDshJzrtoHqtawg7ISx7KCV64-Z!5e0!3m2!1sko!2skr!4v1580978125889!5m2!1sko!2skr" width="330" height="330" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+        </section>
+</body>
+</html>
