@@ -45,3 +45,17 @@ Number.prototype.pad = function(n) {
   }
   
   // END CLOCK
+$(function(){
+  var agent = navigator.userAgent.toLowerCase();
+  if((navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1)){
+       alert("chrome 브라우저에 최적화 되어있습니다");
+       $("#part1>p").text("chrome 브라우저에 최적화 되어있습니다.");
+  }
+  if(agent.indexOf("firefox") != -1){
+    alert("chrome 브라우저에 최적화 되어있습니다");
+    $("#part1>p").text("chrome 브라우저에 최적화 되어있습니다.");
+  }
+
+});
+
+

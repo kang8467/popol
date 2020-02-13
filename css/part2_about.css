@@ -5,16 +5,10 @@
   background-repeat: no-repeat;
    background-size: cover; 
   height: 100vh;
-  /* font: 400 16px 'Poppins', sans-serif; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 #part2 h1{
-  position: relative;
-  top: -30px;
-  left: -400px;
+  margin-left: 125px;
+  padding-top: 30px;
   font-family: 'Jua', sans-serif;
   font-size: 60px;
   color: #FFF;

@@ -60,9 +60,6 @@ header ul li img:hover{
   transition: transform 2s;
   /* border: 1px solid #FFF; */
 }
-.card .front {
-
-}
 .card .back {
   transform: rotateY(-180deg);
 }
@@ -122,4 +119,8 @@ span{
 .back p{
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
+}
+#part1>p{
+ font-size: 12px;
+ color: yellow;
 }
