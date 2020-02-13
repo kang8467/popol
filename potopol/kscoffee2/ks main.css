@@ -1,0 +1,153 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+}
+header{
+    height: 120px;
+  
+}
+
+header img{
+    float: left;
+    margin-left: 120px;
+}
+.coffee a{
+    font-size: 65px;
+    font-weight: bold;
+    color: #50080b;
+    float: left;
+    line-height: 120px;
+    margin-left: 10px;
+}
+
+#toplog{
+    float: right;
+    margin-right:120px;
+    margin-top: 10px;
+}
+#toplog ul li{
+    float: left;
+    margin-right: 15px;
+    font-size: 11px;
+}
+#toplog ul li a{
+    color: rgb(155, 155, 155);
+}
+
+/* -------------------------------------------- */
+
+nav{
+  
+    height: 50px;
+}
+nav ul{
+    
+    width: 100%;
+    height: 50px;
+    background-color:#50080b ;
+}
+nav ul li{
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: #50080b; */
+}
+nav ul li a{
+    color: #fff;
+}
+nav ul li:hover a{
+    color: #50080b;
+}
+nav ul li:hover{
+    background:#FFF;
+}
+/* ----------------------------------------- */
+#m1{
+    background:url("img/1212212.PNG") no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 100%;
+}
+
+#m1 a{ 
+    position: relative;
+    border: 2px solid #67392a;
+    top: 350px;
+    color: #50080b;
+    font-weight: bold;
+    left: 110px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+#m1 a:hover{
+    background-color:#67392a ;
+    color: #fcf6ea;
+} 
+#m2{
+    width: 100%;
+  
+}
+#m3{
+    width: 100%;
+    height: 380px;
+    background: url("img/121212.PNG") no-repeat;
+}
+#m3 a{
+    position: relative;
+    border: 2px solid #65c2f8;
+    top: 300px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    left: 260px;
+    color: #65c2f8;
+}
+#m3 a:hover{
+    background-color:#65c2f8 ;
+    color: #fcf6ea;
+} 
+#m4{
+    background: url("img/2342432.PNG") no-repeat;
+    height: 570px;
+    width: 100%;
+    background-size: cover;
+}
+#m4 a{
+    position: relative;
+    border: 2px solid #9c9c9e;
+    top: 450px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    left: 260px;
+    color: #dbdada;
+}
+#m4 a:hover{
+    background-color:#8a8a8a83 ;
+    color: #dbdada;
+}   
+/* -------------------------------------- */
+footer{
+    border-top: 5px solid #67392a;
+    height: 90px;
+}
+footer p{
+    float: left;
+    font-size: 13px;
+    margin-left: 90px;
+    margin-top: 10px;
+    color: #67392a;
+}
+.last{
+    float: right;
+    margin-top: 25px;
+    margin-right: 120px;
+}
+footer ul li{
+    float: left;
+    margin-left: 15px;
+}

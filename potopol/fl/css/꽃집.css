@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "맑은 고딕";
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url("../img/background.png") no-repeat left top fixed;
+    background-size: cover; 
+
+
+
+} 
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}                                                
+
+/*스마트폰 css*/
+#topbanner{
+   height: 155px;
+   background: #eee0bb url("../img/topbg1.png") no-repeat left top;
+}
+nav{
+    height: 50px;
+    background-color: #c51a3a;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 15px 10px;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+#shop{
+    width: 100%;
+}
+#shop img{
+    width: 100%;
+}
+#intro{
+    width: 95%;
+    padding: 2%;
+}
+#intro p{
+    font-size: 1.2em;
+    font-family: "바탕";
+    color: #f30;
+}
+hr{
+    clear: both;
+    visibility: hidden; 
+}
+#customer{
+    widows: 90%;
+    margin-left: 2%;
+    margin-bottom: 15px;
+}
+#customer h3{
+    background-color: #e66c6d;
+    color: #fff;
+}
+#customer ul{
+    list-style: square;
+    margin-left: 8%;
+}
+#customer ul li{
+    font-size: 0.9em;
+    line-height: 25px;
+}
+.sub{
+    width: 90%;
+    height: 200px;
+    border: 1px dotted #2a2399;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+}
+#choicel{
+    background: url("../img/bg1.png") no-repeat left bottom ;
+    background-size: contain;
+}
+#choice2{
+    background: url("../img/bg2.png") no-repeat left bottom ;
+    background-size: contain;
+}
+#choice3{
+    background: url("../img/bg3.png") no-repeat left bottom ;
+    background-size: contain;
+}
+.sub hgroup{
+    width: 95%;
+    background-color: rgba(255, 255, 255,0.6);
+    margin-top: 120px;
+    text-align: right;
+}  
+.sub hgroup h3{
+    color: #936;
+    font-weight: bold;
+    font-size: 1.2em;
+}  
+.sub hgroup h4{
+    color: #06f;
+}
+footer{
+    height: 50px;
+    border-top: 1px solid #ccc;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    float: left;
+    font-size: 0.6em;
+    color: #222;
+    padding: 15px 5px;
+}
+footer p{
+    float: right;
+    font-size: 0.6em;
+    padding-right: 5px;
+    line-height: 50px;
+}
+/*태블릿 css*/
+@media all and (min-width:786px) and (max-width:1024px){
+    #topbanner{
+        background: #eee0bb url("../img/topbg2.png") no-repeat left top;
+        height: 195px;
+    }
+    #customer{
+        width: 45%;
+        float: left;
+    }
+    #choice1{
+        width: 45%;
+        float: left;
+    }
+    
+    #choice2{
+        width: 45%;
+        float: left;
+    }
+    
+    #choice3{
+        width: 45%;
+        float: left;
+    }
+/*pc css*/
+@media all and (min-width:1025px){
+    #topbanner{
+        background: #eee0bb url("../img/topbg3.png") no-repeat left top;
+        height: 195px;
+    }
+    #shop{
+        clear: both;
+        width: 40%;
+        float: left;
+    }
+    #intro{
+        width: 50%;
+        float: left;
+    }
+}

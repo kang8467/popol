@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="ks coffee event.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // $("dd:not(:first)").css("display","none");
+            $("dd").css("display","none");
+            $("dt:first").addClass("selected");
+            $("dl dt").click(function(){
+                if($("+dd",this).css("display")=="none"){
+                    //$(select,context(범위))
+                    $("dd").slideUp("slow");
+                    $("+dd",this).slideDown("slow");
+                    $("dt").removeClass("selected");
+                    $(this).addClass("selected");
+                }else{
+                    //$(select,context(범위))
+                    $("dd").slideUp("slow");
+                    // $("+dd",this).slideup("slow");
+                    $("dt").removeClass("selected");
+                    $(this).addClass("selected");
+                }
+            }).mouseover(function(){
+                $(this).addClass("over");
+            }).mouseout(function(){
+                $(this).removeClass("over");
+            });
+        });
+        </script>
+</head>
+<body>
+    <div id="all">
+            <header>
+                    <a href="#"><img src="img/ks 로고.png" alt=""></a>
+                      <div class="coffee">
+                          <a href="#">coffee</a>
+                      </div>
+                      <div id="toplog">
+                          <ul>
+                              <li><a href="#">로그인</a></li>
+                              <li><a href="#">회원가입</a></li>
+                              <!-- <li><a href="#">아이디 찾기</a></li>
+                              <li><a href="#">비밀번호 찾기</a></li> -->
+                          </ul>
+                      </div>
+                  </header>
+                  <nav>
+                      <ul>
+                          <li><a href="#">홈</a></li>
+                          <li><a href="#">메뉴</a></li>
+                          <li><a href="#">이벤트</a></li>
+                          <li><a href="#">게시판</a></li>
+                          <li><a href="#">Q&A</a></li>
+                      </ul>
+                  </nav>
+    </div>
+    <article>
+    <h1>EVENT</h1>
+            <dl>
+                    <dt id="step1"><span>홈페이지 리뉴얼 오픈 이벤트!</span></dt>
+                    <dd><img src="event/이벤트1.jpg" alt="">
+                        <p>이벤트 내용</p></dd>
+                     <dt id="step2"><span>신메뉴 출시 기념 이벤트! 8월 2일~11일까지!</span></dt>
+                     <dd><img src="event/이벤트2.jpg" alt="">
+                         <p></p></dd>
+                     <dt id="step3"><span>6월 27일 단 하루* 아메리카노를 500원으로 즐기세요! (T멤버십 고객 대상 이벤트)</span></dt>
+                     <dd><img src="event/이벤트3.jpg" alt="">
+                         <p>이벤트 내용 </p></dd>
+                </dl>
+    </article>
+</body>
+</html>
