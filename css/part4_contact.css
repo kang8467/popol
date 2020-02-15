@@ -11,12 +11,11 @@
 }
 #part4 .inner{
  background-color:rgba(199, 198, 198, 0.418) ;
- /* border: 1px solid #FFF; */
  width: 1000px;
  height: 700px;
  margin: 0 auto;
  position: relative;
- top: 100px;
+ top: 200px;
 }
 .contact-form{
     float: right;

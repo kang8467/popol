@@ -176,6 +176,7 @@
 /* ------------------------------ */
 #part2_about{
   position: relative;
+  top: 100px;
   font-family: 'Jua', sans-serif;
   font-size: 20px;
   width: 803px;
