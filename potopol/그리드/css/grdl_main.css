@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: #000;
+}
+
+header{
+    /* margin: 0 auto; */
+    padding: 0 20%;
+
+}
+
+#logo {
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+header nav{
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid #000;
+    height: 30px;
+}
+
+header nav ul {
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    float: left;
+    /* height: 50px; */
+    margin-left: 30px;
+}
+header nav ul li a{
+    font-weight: 550;
+}
+header nav ul li a:hover{
+    color: red;
+}
+
+/* 메인 */
+#wrapper{
+    width:60%;
+	max-width:1100px;
+	min-width:760px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+#columns{
+    /* border: 1px solid; */
+    -webkit-column-count:4;
+	-moz-column-count:4;
+    column-count:4;
+    column-gap:10px;
+    /* margin: 0 auto; */
+}
+.card{
+    display:inline-block;
+	width:150px;
+    text-align: center;
+    font-size: 15px;
+	padding:15px;
+	padding-bottom:15px;
+	margin:10px;
+}
+.card img{
+    width: 100%;
+}
+
+/* 풋터 */
+
+
+footer{
+    padding:0 20% ;
+    clear: both;
+    height: 50px;
+    margin: 0 auto;
+}
+#footer{
+    width: 100%;
+    border-top: 2px solid #000;
+}
+
+footer p{
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+    width: 250px;
+}
+footer a{
+    font-size: 14px;
+}
+footer ul {
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+footer ul li{
+    float: left;
+    margin-left: 15px;
+}
