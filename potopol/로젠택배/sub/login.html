@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로젠 로그인</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header>
+        <div id="top_top">
+        <div id="top_logo"><a href="../logen.html"><img src="../img/img_logo_on.png" alt=""></a></div>
+        <nav id="top_menu">
+            <ul id="top_me">
+                <li><a href="#">회사소개</a>
+                <ul>
+                    <li><a href="#">사업개요</a></li>
+                    <li><a href="#">경영이념 비전</a></li>
+                    <li><a href="#">CEO 인사말</a></li>
+                    <li><a href="#">전자공고</a></li>
+                    <li><a href="#">찾아오시는길</a></li>
+                </ul>
+                </li>
+                <li><a href="#">개인택배</a>
+                <ul>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">택배예약</a></li>
+                    <li><a href="#">사고접수</a></li>
+                    <li><a href="#">배송조회</a></li>
+                    <li><a href="#">현금영수증</a></li>
+                </ul>
+                </li>
+                <li><a href="#">기업택배</a>
+                <ul>
+                    <li><a href="#">기업전용시스템</a></li>
+                    <li><a href="#">원격지원</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                    <li><a href="#">요금문의</a></li>
+                </ul>
+                </li>
+                <li><a href="#">네트워크</a>
+                <ul>
+                    <li><a href="#">택배이동경로</a></li>
+                    <li><a href="#">센터안내</a></li>
+                    <li><a href="#">지점안내</a></li>
+                    <li><a href="#">모집안내</a></li>
+                </ul>
+                </li>
+                <li><a href="#">고객지원</a>
+                <ul>
+                    <li><a href="#">고객문의</a></li>
+                    <li><a href="#">고객 유의사항</a></li>
+                    <li><a href="#">자주묻는질문</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+                </li>
+            </ul>
+            <ul id="top_login">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">사랑의 매</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <div class="contents util">
+        <section>
+            <div class="wrap">
+                <h3>로그인</h3>
+                <form method="post" action="/web/login/authenticate" id="loginForm">
+                <div class="loginBox">
+                    <div class="login01">
+                        <div>
+                            <div class="tit">아이디</div>
+                            <input class="wd400" type="text" placeholder="아이디" id="webId" name="webId">
+                        </div>
+                        <div class="mgt20">
+                            <div class="tit">비밀번호</div>
+                            <input class="wd400" type="password" placeholder="비밀번호" id="pwd" name="pwd">
+                        </div>
+                        <div class="mgt20">
+                            <input type="checkbox" id="secured" name="secured" checked>
+                            <label for="secured">보안접속</label>
+                            <span class="loginTip">
+                                <img src="../img/login/ico_tip_02.png" />
+                                <div class="loginTipBox">체크시 30분,<br>체크 해제시 24시간 로그인</div>
+                            </span>					
+                        </div>
+                        <div class="formBtnBox wd400 mgt40">
+                            <button type="button" id="btnLogin">로그인</button>
+                        </div>
+                        <a href="/web/member/find/idPwd" class="btnIdPassFind">아이디/비밀번호 찾기</a>
+                    </div>
+                    <div class="login02">
+                        <div class="tit">로젠택배 홈페이지에 오신 것을<br>환영합니다.</div>
+                        <p>두근두근~<br>미소로 전하는 설레임</p>
+                        <a href="javascript://" class="btnJoinMember" id="btnJoin">회원가입</a>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div id="footer_all">
+        <div id="foote_menu">
+            <ul>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">택배표준약관</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="../img/footer_naverBlog.png" alt=""></a></li>
+                <li><a href="#"><img src="../img/footer_insta.png" alt=""></a></li>
+                <li><a href="#"><img src="../img/footer_facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="../img/footer_youtube.png" alt=""></a></li>
+            </ul>
+        </div>
+        <p>서울시 용산구 청파로 40 삼구빌딩 5층 로젠주식회사 대표 최정호
+            <br>
+            대표전화 1588-9988 통신판매업신고 2016-서울강남-03054 사업자등록번호 126-81-38772 이메일 webmaster@ilogen.com
+            <br>
+            Logen Co.,Ltd 2019. ALL rights Reserved
+        </p>
+        <img src="img/footer_logo.png" alt="">
+    </div>
+    </footer>
+</body>
+</html>

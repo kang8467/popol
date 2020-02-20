@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+p,a{
+    color: #000;
+}
+
+header{
+    /* border: 1px solid rebeccapurple; */
+    height: 100vh;
+}
+#top_top{
+    text-align: center;
+    margin: 0 auto;
+    width: 1240px;
+    position: relative;
+    z-index: 100;
+    /* border: 2px solid red; */
+    height: 100px;
+}
+#top_logo{
+  position: relative;
+  z-index: 50;
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#top_menu{
+    width: 100%;
+    position: relative;
+    z-index: 50;
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.473);
+}
+
+#top_me{
+    display: inline-block;
+    height: 100%;
+    /* margin: 0 auto; */
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    /* border: 1px solid black; */
+}
+
+#top_me>li{
+  position: relative;
+  float: left;
+  margin-left: 35px;
+  height: 95px;
+}
+#top_me>li>a{
+    color: #FFF;
+}
+#top_me>li:hover{
+    border-bottom: 4px solid #eba55f;
+}
+#top_me>li:hover>a{
+    color: #eba55f;
+}
+#top_me li ul li a:hover{
+    color: #eba55f;
+    text-decoration:underline;
+}
+#top_me li:hover ul{
+    display:block;
+}
+#top_me li ul{
+    z-index: 500;
+    display: none;
+    text-align: center;
+    line-height: 50px;
+    background: #FFF;
+    /* border: 1px solid blue; */
+    position: absolute;
+    width: 200px;
+    left: -60px;
+    border-radius: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.541);
+}
+#top_me li ul li{
+    width: 100%;
+}
+
+#top_login{
+    float: right;
+    /* border: 1px solid red; */
+    /* float: left; */
+    line-height: 100px;
+    /* margin-right: 50px; */
+}
+
+#top_login li{
+    font-weight: bold;
+    font-size: 13px;
+    float: left;
+    margin-left: 20px;
+
+}
+#top_login li a{
+    color: #FFF;
+}
+
+/* 검색 */
+
+#se_all{
+    /* min-width: 800px; */
+    z-index: 20;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    background-color: #FFF;
+    /* border: 1px solid blue; */
+    width: 800px;
+    height: 100px;
+    border-radius: 50px;
+}
+#se_all .tit{
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100px;
+    float: left;
+}
+.tit img{
+    vertical-align: middle;
+}
+
+#sec{
+    height: 50px;
+    margin-left: 130px;
+   float: left;
+   line-height: 100px;
+}
+#sec input{
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+}
+#sec button{
+    cursor:pointer;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    width: 70px;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+/* 메인 슬라이드 */
+
+#top_main{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#top_main ul li img{
+
+    width: 100%;
+    height: 100vh;
+}
+
+#top_main p{
+    /* position:relative; */
+    margin-top: -500px;
+    text-align: center;
+    /* top: 300px;
+    left: 800px; */
+    font-size: 50px;
+    color: #FFF;
+    
+}
+
+.ma1,.ma2,.ma3{
+    width: 100%;
+    position: absolute;
+    /* display: none; */
+}
+
+/* 퀵서비스 */
+
+#part1{
+    /* border: 1px solid blue; */
+    height: 140px;
+    background: url("../img/bg_quickmenu.jpg") no-repeat;
+    background-size: 100% 140px;
+}
+#part1 img{
+    display: block;
+}
+#part1_all{
+   /* border: 1px solid rebeccapurple;  */
+    height: 100%;
+    width: 1200px; 
+    margin: 0 auto;
+}
+#part_p{
+    /* background: url("../img/bg_quickmenu.jpg") no-repeat; */
+    background-color: #ffaa45;
+    height: 100%;
+    width: 250px;
+    float: left;
+}
+#part_p p{
+    color: #694f1c;
+    padding-right: 30px;
+    text-align: right;
+    font-weight: bold;
+    float: right;
+    padding-top: 35px;
+    font-size: 25px;
+}
+#quick_menu{
+    height: 100%;
+    background-color: #ffbb46;
+}
+#quick_menu li{
+    border-radius: 15px;
+    height: 100px;
+    width: 120px; 
+    /* border: 1px solid beige; */
+    text-align: center;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#quick_menu li img{
+    padding-left: 30px;
+}
+#quick_menu li img:first-child{
+    display: none;
+    position: absolute;
+}
+#quick_menu li:hover img:first-child{
+    display: block;
+}
+#quick_menu li a{
+    color: #694f1c;
+}
+
+#quick_menu li:hover{
+    background-color: #9b9382;
+}
+#quick_menu li:hover>a{
+    color: #FFF;
+}
+ /* 19년 연속 */
+
+#part2{
+    min-width: 1204px;
+    height: 1077px;
+    background: url("../img/bg_mainBg_con01.jpg")no-repeat 100% 100%;
+    /* background-size: 100% 1080px; */
+    /* background-position-x: 0px; */
+    /* border: 1px solid blue; */
+}
+#part2_p{
+    /* border: 1px solid #000; */
+    text-align: center;
+    padding-top: 150px;
+}
+#p_1{
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.507);
+}
+#p_2{
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+#p_2 span{
+    font-weight: normal;
+}
+#num_1{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#num_1 li{
+    float: left;
+    text-align: center;
+}
+#num_1 p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#num_1 span{
+    font-weight: normal;
+}
+
+/* 택배서비스 안내 */
+
+#part3{
+   height: 900px;
+}
+#part3_all{
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 800px;
+    width: 1204px;
+}
+#part_hed{
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 30px; */
+    width: 600px;
+    height: 397px;
+    background: url("../img/img_mainCon02.png") no-repeat;
+    background-position-x: 300px;
+    background-position-y: 200px;
+}
+#part_hed h1{
+    font-size: 40px;
+    padding-top: 40px;
+    /* padding-left: 30px; */
+}
+#part_hed p{
+    /* padding-left: 30px; */
+    color: rgba(94, 94, 94, 0.808);
+}
+
+#part3 ul li a{
+    height: 399px;
+    width: 301px;
+    /* border: 1px solid transparent; */
+    float: left;
+    text-align: center;
+    line-height: 600px;
+    font-size: 27px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+#part3 ul li:nth-child(1) a{
+    background-image: url("../img/img_con2bg_01.jpg");
+    
+}
+
+#part3 ul li:nth-child(2) a{
+    background-image: url("../img/img_con2bg_02.jpg");
+    line-height: 220px;
+}
+
+#part3 ul li:nth-child(3) a{
+    background-image: url("../img/img_con2bg_03.jpg");
+    /* margin-left: 25px; */
+    line-height: 220px;
+}
+
+#part3 ul li:nth-child(4) a{
+    background-image: url("../img/img_con2bg_04.jpg");
+    
+}
+#part3 ul li:nth-child(5) a{
+    background-image: url("../img/img_con2bg_05.jpg");
+    line-height: 220px;
+}
+
+#part3 ul li:nth-child(6) a{
+    background-image: url("../img/img_con2bg_06.jpg");
+    
+}
+#part3 ul li:nth-child(7) a{
+    background-image: url("../img/img_con2bg_07.jpg");
+    line-height: 220px;
+}
+
+/* 로젠택배 app */
+#part4{
+    background: url("../img/bg_mainCon05_wrap.png") no-repeat;
+    background-size: 100% 100%;
+    /* border: 1px solid blue; */
+    height: 480px;
+}
+#part4_all{
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    width: 1204px;
+    height: 510px;
+    background: url("../img/bg_mainCon05_bg.png") no-repeat;
+    background-size: contain;
+}
+
+#part4 p{
+    padding-top: 150px;
+    margin-left: 50px;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(75, 75, 75, 0.842);
+}
+#part4 span{
+
+    font-size: 40px;
+    color: #61553e;
+    font-weight: bold;
+}
+
+#download{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+/* 풋터 */
+
+footer{
+    background-color: #393939;
+    height: 300px;
+}
+footer p,footer a{
+    color: #FFF;
+}
+#footer_all{
+    /* border: 1px solid red; */
+    width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+}
+#foote_menu{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+    height: 100px;
+    width: 1150px;
+    margin: 0 auto;
+}
+#foote_menu li{
+    padding-top: 50px;
+    margin-left: 25px;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+#foote_menu li:first-child a{
+    color: #ffbb45;
+}
+
+#foote_menu ul:last-child{
+    margin-right: 25px;
+    float: right;
+}
+
+footer p{
+    font-size: 14px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.521);
+    line-height: 30px;
+}
+
+#footer_all>img{
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+@media all and (min-width: 1920px){
+    #part2{
+        
+        background-size: 100% 1080px;
+ 
+    }
+}

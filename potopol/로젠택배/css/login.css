@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+p,a{
+    color: #000;
+}
+
+#top_top{
+    text-align: center;
+    margin: 0 auto;
+    width: 1240px;
+    position: relative;
+    z-index: 100;
+    /* border: 2px solid red; */
+    height: 100px;
+}
+#top_logo{
+  position: relative;
+  z-index: 50;
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#top_logo a{
+    display: block;
+}
+#top_menu{
+    width: 100%;
+    position: relative;
+    height: 100px;
+    border-bottom: 2px solid rgba(126, 126, 126, 0.719);
+}
+
+#top_me{
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+#top_me>li{
+  position: relative;
+  float: left;
+  margin-left: 35px;
+  height: 95px;
+}
+#top_me>li>a{
+    color: #000;
+}
+#top_me>li:hover{
+    border-bottom: 4px solid #eba55f;
+}
+#top_me>li:hover>a{
+    color: #eba55f;
+}
+#top_me li ul li a:hover{
+    color: #eba55f;
+    text-decoration:underline;
+}
+#top_me li:hover ul{
+    display:block;
+}
+#top_me li ul{
+    z-index: 500;
+    display: none;
+    text-align: center;
+    line-height: 50px;
+    background: #FFF;
+    position: absolute;
+    width: 200px;
+    left: -60px;
+    border-radius: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.541);
+}
+#top_me li ul li{
+    width: 100%;
+}
+
+#top_login{
+    float: right;
+    line-height: 100px;
+}
+
+#top_login li{
+    font-weight: bold;
+    font-size: 13px;
+    float: left;
+    margin-left: 20px;
+
+}
+#top_login li a{
+    color: rgb(136, 136, 136);
+}
+/* 로그인 메인 */
+
+
+.contents{
+    width: 100%;
+}
+.wrap a {
+    text-decoration:underline;
+}
+.wrap div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+.wrap{
+    height: 650px;
+    width: 1204px;
+    padding:117px 0 ;
+    margin: 0 auto;
+}
+.wrap h3{
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 98px;
+}
+ .loginBox .login01 {
+    position: relative;
+}
+
+.loginBox>div {
+    width: 50%;
+    box-sizing: border-box;
+    height: 360px;
+    float: left;
+    border-right: 1px solid rgba(128, 128, 128, 0.548);
+}
+.loginBox>div:last-child{
+    border: 0;
+}
+.loginBox .login01 .tit {
+    display: block;
+    color: #222;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.loginBox .login01 input {
+    width: 400px;
+}
+
+input button {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    background-color: -internal-light-dark-color(white, black);
+    font: 400 13.3333px Arial;
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid #ddd;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #222;
+    font-weight: 400;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=file], textarea, select, button {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+    background: inherit;
+    cursor: pointer;
+    vertical-align: top;
+    outline: 0;
+}
+.mgt20 {
+    margin-top: 20px !important;
+}
+
+input[type="checkbox"]:checked + label {
+    background-image: url(../img/login/ico_checkBox_on.png);
+}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+    width: auto;
+    background: url(../img/login/ico_checkBox.png) no-repeat 0px 0px;
+    background-size: 20px auto;
+    cursor: pointer;
+    transition: background .1s;
+    padding-left: 40px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 18px;
+    color: #222;
+}
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    height: auto;
+}
+input[type=checkbox]+label {
+    position: relative;
+    padding: 0 0 0 30px;
+    vertical-align: top;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+.loginBox .loginTip {
+    position: relative;
+    margin-left: 3px;
+}
+
+.loginBox .loginTip .loginTipBox {
+    display: none;
+    background: url(../img/login/bg_tipBox.png)no-repeat;
+    width: 226px;
+    height: 86px;
+    font-size: 14px;
+    color: #222;
+    line-height: 26px;;
+    font-weight: bold;
+    padding-left: 26px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    position: absolute;
+    top: -29px;
+    left: 15px;
+}
+.loginBox .loginTip:hover .loginTipBox{
+    display: block;
+}
+
+.wrap div {
+    display: block;
+}
+
+.loginBox .login01 button {
+    width: 400px;
+}
+
+.formBtnBox button {
+    margin-top: 30px;
+    height: 64px;
+    background-color: #ffa200;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #fff;
+}
+
+button {
+    max-width: 100%;
+    padding: 0;
+    border: 0;
+    background: inherit;
+    cursor: pointer;
+    vertical-align: top;
+    outline: 0;
+}
+
+.loginBox .login01 a {
+        background: url(../img/login/ico_find_02.png)no-repeat left;
+        color: #ffa200;
+        font-size: 18px;
+        padding-left: 24px;
+        position: relative;
+        margin-top: 18px;
+        display: inline-block;
+}
+
+.loginBox .login01 a:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    display: inline-block;
+    height: 1px;
+    /* width: 160px; */
+}
+/* 회원가입 */
+.loginBox .login02 {
+    background: url(../img/login/img_login_01.png)no-repeat 100px top;
+    position: relative;
+    padding-left: 100px;
+}
+
+.loginBox .login02 .tit {
+    font-size: 32px;
+    color: #222;
+    line-height: 46px;
+    font-weight: 700;
+    padding-top: 104px;
+    padding-bottom: 18px;
+}
+
+.loginBox .login02 p {
+    font-size: 18px;
+    color: #666;
+    line-height: 28px;
+    padding-bottom: 68px;
+}
+
+.loginBox .login02 a {
+    background: url(../img/login/ico_join_02.png)no-repeat left;
+    color: #ffa200;
+    font-size: 18px;
+    font-family: "noto";
+    font-weight: 500;
+    padding-left: 24px;
+    position: relative;
+}
+
+/* 풋터 */
+
+footer{
+    clear: both;
+    background-color: #393939;
+    height: 300px;
+}
+footer p,footer a{
+    color: #FFF;
+}
+#footer_all{
+    /* border: 1px solid red; */
+    width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+}
+#foote_menu{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+    height: 100px;
+    width: 1150px;
+    margin: 0 auto;
+}
+#foote_menu li{
+    padding-top: 50px;
+    margin-left: 25px;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+#foote_menu li:first-child a{
+    color: #ffbb45;
+}
+
+#foote_menu ul:last-child{
+    margin-right: 25px;
+    float: right;
+}
+
+footer p{
+    font-size: 14px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.521);
+    line-height: 30px;
+}
+
+#footer_all>img{
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+}
