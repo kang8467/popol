@@ -175,18 +175,20 @@
 
 /* ------------------------------ */
 #part2_about{
+  /* border: 1px solid #FFF; */
   position: relative;
-  top: 100px;
   font-family: 'Jua', sans-serif;
   font-size: 20px;
   width: 803px;
-  height: 700px;
+  height: 800px;
   margin: 0 auto;
   overflow: hidden;
   color: #FFF;
 }
 
 #about1_img_text{
+  margin-top: 30px;
+  /* border: 1px solid #FFF; */
   position: relative;
   left: 850px;
   width: 400px;
@@ -203,6 +205,8 @@
 }
 
 #about2_img_text{
+  margin-top: 30px;
+  /* border: 1px solid #FFF; */
   position: relative;
   right: 850px;
   float: right;
@@ -219,6 +223,8 @@
 }
 
 #about3_img_text{
+  margin-top: 30px;
+  /* border: 1px solid #FFF; */
   position: relative;
   left: 850px;
   margin-top: 285px;
@@ -237,6 +243,8 @@
 }
 
 #about4_img_text{
+  margin-top: 30px;
+  /* border: 1px solid #FFF; */
   position: relative;
   right: 850px;
   float: right;

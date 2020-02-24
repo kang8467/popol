@@ -38,6 +38,7 @@ header ul li img:hover{
   font-size: 1.5em;
 }
 .card {
+  /* border: 1px solid #FFF; */
   width: 500px;
   height: 500px;
   position: relative;
