@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    /* background-color: #f2f0f1; */
+}
+ header{
+    background-color: #f2f0f1;
+     height: 85px;
+     font-size: 12px;
+     /* overflow: hidden; */
+ }
+ header span{
+     color: #96c11f;
+ }
+ header a{
+     color: grey;
+ }
+
+header #logo{
+    float: left;
+    padding: 20px;
+    margin-left: 140px;
+}
+header #sut{
+float: left;
+padding-left: 120px;
+padding-top: 30px;
+
+}
+
+header input{
+    outline: none;
+    border: 0px;
+    width: 100px;
+    border-bottom: 1px solid gray;
+    background-color: #f2f0f1;
+}
+header button{
+    background-color: #f2f0f1;
+    border: 0px;
+}
+
+header #login ul{
+    margin-left: 800px;
+}
+
+header #login ul li a{
+     float: left;
+     margin: 35px 5px;
+ }
+ nav{
+     clear: both;
+     height: 40px;
+     background-color:#4e4c4d ;
+     margin-bottom: 20px;
+
+ }
+ nav ul li:first-child{
+     padding-left: 230px;
+ }
+ nav ul li a{
+     float: left;
+     color: #FFF;
+     margin: 10px 45px;
+     font-size: 13px;
+     background-color: #4e4c4d;
+ }
+ nav ul li a:hover{
+     color: darkolivegreen;
+ }
+ aside #aaa{
+     float: left;
+     width: 230px;
+     margin-left:140px ;
+     margin-bottom: 20px;
+     }
+    
+aside #aaa h4{
+    background-color: #96c11f;
+    text-align: center;
+    color: #FFF;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+aside #aaa ul li a{
+    color: rgba(0, 0, 0, 0.747);
+   
+}
+#aaa .tel{
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.521);
+}
+aside #aaa ul li{
+    padding-left: 35px;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.747);
+}
+aside #mainphoto{
+    float: left;
+}
+aside ul li:hover{
+    background-color: gray;
+}
+
+#pointall .po{
+  border-bottom: 3px solid rgba(128, 128, 128, 0.521);
+  margin-left: 400px;
+  width: 650px;
+  margin-bottom: 15px;
+  padding-bottom: 10px ;
+  color: rgba(63, 62, 62, 0.911);
+}
+#pointall .po span{
+    color: #96c11f;
+}
+#pointall .maf{
+    margin-left: 400px;
+}
+#pointall .maf2{
+    margin-left: 460px;
+    margin-top: 10px;
+}
+#pointall .bm1{
+    float: left;
+}
